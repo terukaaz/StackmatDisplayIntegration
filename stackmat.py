@@ -1,8 +1,8 @@
 import sounddevice as sd
 from math import sqrt, ceil
-# from numpy import int8
+from numpy import int8
 
-DEVICE_NUM = 8
+DEVICE_NUM = 30
 
 THRESHOLD_EDGE = 0.7
 AGC_FACTOR = 0.0001
